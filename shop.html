@@ -46,12 +46,12 @@
   <a class="navbar-brand" href="#">
     <p class="mb-0 text-success">Խանութ</p>
   </a>
-  <div class="d-flex justify-content-end col-6 ">
+  <div class="d-flex justify-content-end col-6">
   <form class="form-inline d-none d-lg-block">
     <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
     <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
   </form>
-  <div class="dropdown col-sm-4 col-lg-3">
+  <div class="dropdown col-sm-4 col-lg-3 ml-5 mr-sm-5">
   <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
     My Account
   </button>
@@ -138,28 +138,298 @@
   </nav>
       </header>
 
-      <div class="row">
-        <nav aria-label="breadcrumb col-xl-12">
-          <ol class="breadcrumb">
-            <li class="breadcrumb-item"><a href="#">Home</a></li>
-            <li class="breadcrumb-item"><a href="#">Library</a></li>
-            <li class="breadcrumb-item active" aria-current="page">Data</li>
-          </ol>
-        </nav>
-        <div class="col-xl-6">
+      <main>
+          <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item"><a href="#">Home</a></li>
+              <li class="breadcrumb-item"><a href="#">Library</a></li>
+              <li class="breadcrumb-item active" aria-current="page">Data</li>
+            </ol>
+          </nav>
+
           <div class="row">
-            <h3 class="col-xl-2">Sort By</h3>
-            <select class="custom-select col-xl-2">
-              <option value="1">֏</option>
-              <option value="2">€</option>
-              <option value="3">$</option>
-            </select>
+            <div class="col-xl-3 col-lg-3">
+              <div class="accordion d-xl-block d-lg-block d-md-none d-sm-none d-none" id="accordionExample">
+  <div class="card">
+    <div class="card-header" id="headingOne">
+      <h2 class="mb-0">
+        <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+          Select Brand
+        </button>
+      </h2>
+    </div>
+
+    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+      <div class="card-body">
+        <div class="row">
+          <div class="custom-control custom-checkbox col-xl-12">
+            <input type="checkbox" class="custom-control-input" id="customCheck1">
+            <label class="custom-control-label" for="customCheck1">Check this custom checkbox</label>
           </div>
+          <div class="custom-control custom-checkbox col-xl-12">
+            <input type="checkbox" class="custom-control-input" id="customCheck2">
+            <label class="custom-control-label" for="customCheck2">Check this custom checkbox</label>
+          </div>
+          <div class="custom-control custom-checkbox col-xl-12">
+            <input type="checkbox" class="custom-control-input" id="customCheck3">
+            <label class="custom-control-label" for="customCheck3">Check this custom checkbox</label>
+          </div> 
+        </div>       
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" id="headingTwo">
+      <h2 class="mb-0">
+        <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          Select CPU
+        </button>
+      </h2>
+    </div>
+    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+      <div class="card-body">
+        <div class="row">
+          <div class="custom-control custom-checkbox col-xl-12">
+            <input type="checkbox" class="custom-control-input" id="customCheck4">
+            <label class="custom-control-label" for="customCheck4">Check this custom checkbox</label>
+          </div>
+          <div class="custom-control custom-checkbox col-xl-12">
+            <input type="checkbox" class="custom-control-input" id="customCheck5">
+            <label class="custom-control-label" for="customCheck5">Check this custom checkbox</label>
+          </div>
+          <div class="custom-control custom-checkbox col-xl-12">
+            <input type="checkbox" class="custom-control-input" id="customCheck6">
+            <label class="custom-control-label" for="customCheck7">Check this custom checkbox</label>
+          </div> 
         </div>
-      </div>      
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" id="headingThree">
+      <h2 class="mb-0">
+        <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+          Select Size
+        </button>
+      </h2>
+    </div>
+    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+      <div class="card-body">
+        <div class="row">
+          <div class="custom-control custom-checkbox col-xl-12">
+            <input type="checkbox" class="custom-control-input" id="customCheck10">
+            <label class="custom-control-label" for="customCheck10">Check this custom checkbox</label>
+          </div>
+          <div class="custom-control custom-checkbox col-xl-12">
+            <input type="checkbox" class="custom-control-input" id="customCheck11">
+            <label class="custom-control-label" for="customCheck11">Check this custom checkbox</label>
+          </div>
+          <div class="custom-control custom-checkbox col-xl-12">
+            <input type="checkbox" class="custom-control-input" id="customCheck12">
+            <label class="custom-control-label" for="customCheck12">Check this custom checkbox</label>
+          </div> 
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" id="headingThree">
+      <h2 class="mb-0">
+        <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree1" aria-expanded="false" aria-controls="collapseThree1">
+          Select Brand
+        </button>
+      </h2>
+    </div>
+    <div id="collapseThree1" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+      <div class="card-body">
+        <div class="row">
+          <div class="custom-control custom-checkbox col-xl-12">
+            <input type="checkbox" class="custom-control-input" id="customCheck13">
+            <label class="custom-control-label" for="customCheck13">Check this custom checkbox</label>
+          </div>
+          <div class="custom-control custom-checkbox col-xl-12">
+            <input type="checkbox" class="custom-control-input" id="customCheck14">
+            <label class="custom-control-label" for="customCheck14">Check this custom checkbox</label>
+          </div>
+          <div class="custom-control custom-checkbox col-xl-12">
+            <input type="checkbox" class="custom-control-input" id="customCheck15">
+            <label class="custom-control-label" for="customCheck15">Check this custom checkbox</label>
+          </div> 
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" id="headingThree">
+      <h2 class="mb-0">
+        <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree2" aria-expanded="false" aria-controls="collapseThree2">
+          Select Size
+        </button>
+      </h2>
+    </div>
+    <div id="collapseThree2" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+      <div class="card-body">
+        <div class="row">
+          <div class="custom-control custom-checkbox col-xl-12">
+            <input type="checkbox" class="custom-control-input" id="customCheck7">
+            <label class="custom-control-label" for="customCheck7">Check this custom checkbox</label>
+          </div>
+          <div class="custom-control custom-checkbox col-xl-12">
+            <input type="checkbox" class="custom-control-input" id="customCheck8">
+            <label class="custom-control-label" for="customCheck8">Check this custom checkbox</label>
+          </div>
+          <div class="custom-control custom-checkbox col-xl-12">
+            <input type="checkbox" class="custom-control-input" id="customCheck9">
+            <label class="custom-control-label" for="customCheck9">Check this custom checkbox</label>
+          </div> 
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="row border bg-light
+border bg-light w-100 rounded-bottom ml-0 d-xl-block d-lg-block d-md-none d-sm-none d-none">
+<div class="custom-control custom-switch col-xl-12">
+  <input type="checkbox" class="custom-control-input" id="customSwitch1">
+  <label class="custom-control-label" for="customSwitch1">Toggle this switch element</label>
+</div>
+<div class="custom-control custom-switch col-xl-12">
+  <input type="checkbox" class="custom-control-input" id="customSwitch2">
+  <label class="custom-control-label" for="customSwitch2">Toggle this switch element</label>
+</div>
+</div>
 
 
-      <footer class="row mt-5 d-xl-block d-lg-block d-sm-none">
+            </div>
+            <div class="col-xl-9 col-lg-9 col-11 ml-4 ml-sm-0 ml-md-0 ml-lg-0 ml-xl-0">
+              <div class="row">
+                <div class="col-xl-12 col-lg-12 col-md-6 col-sm-6 col-12 border rounded bg-light">
+                  <div class="row">
+                    <div class="col-xl-3 col-lg-3 col-md-12">
+                      <img src="https://images-na.ssl-images-amazon.com/images/I/41jM4K-kR1L._AC_SY400_.jpg" class="img-fluid" alt="Responsive image">
+                    </div>
+                    <div class="col-xl-5 col-lg-6 col-md-11 ml-lg-0 ml-md-4 ml-sm-3 ml-4">
+                      <div class="row">
+                        <a href="#">HP Laptop 15-DY</a>
+                        <p>HP Laptop 15 DY 1751 MS 10th Generation Intel® Core™ i5-1035G1 Processors 8GB RAM 512GB SSD Windows 10 15.6 Inch HD 1366-by-768 Touchscreen, English Keyboard, Silver Color</p>
+                      </div>
+                    </div>  
+                    <div class="col-xl-3 col-lg-3 ml-xl-4 ml-lg-0 ml-md-0 ml-sm-0 ml-0">
+                      <div class="row ml-5 ml-lg-0 ml-md-0 mb-md-3 mb-sm-3 mb-3 mb-lg-0 mb-xl-0">
+                        <h3 class="text-primary col-xl-12 mt-4 ml-3">$500</h3>
+                        <a href="#" class="col-xl-12 col-lg-12">
+                          <button type="button" class="btn btn-outline-success ">Add to Cart</button>
+                        </a>  
+                      </div>
+                    </div> 
+                  </div>
+                </div>
+                <div class="col-xl-12 col-lg-12 col-md-6 col-sm-6 border rounded bg-light"><div class="row">
+                    <div class="col-xl-3 col-lg-3 col-md-12">
+                      <img src="https://images-na.ssl-images-amazon.com/images/I/41jM4K-kR1L._AC_SY400_.jpg" class="img-fluid" alt="Responsive image">
+                    </div>
+                    <div class="col-xl-5 col-lg-6 col-md-11 ml-lg-0 ml-md-4 ml-sm-3 ml-4">
+                      <div class="row">
+                        <a href="#">HP Laptop 15-DY</a>
+                        <p>HP Laptop 15 DY 1751 MS 10th Generation Intel® Core™ i5-1035G1 Processors 8GB RAM 512GB SSD Windows 10 15.6 Inch HD 1366-by-768 Touchscreen, English Keyboard, Silver Color</p>
+                      </div>
+                    </div>  
+                    <div class="col-xl-3 col-lg-3 ml-xl-4 ml-lg-0 ml-md-0 ml-sm-0 ml-0">
+                      <div class="row ml-5 ml-lg-0 ml-md-0 mb-md-3 mb-sm-3 mb-3">
+                        <h3 class="text-primary col-xl-12 mt-4 ml-3">$500</h3>
+                        <a href="#" class="col-xl-12 col-lg-12">
+                          <button type="button" class="btn btn-outline-success ">Add to Cart</button>
+                        </a>  
+                      </div>
+                    </div> 
+                  </div>
+                </div>
+                <div class="col-xl-12 col-lg-12 col-md-6 col-sm-6 border rounded bg-light"><div class="row">
+                    <div class="col-xl-3 col-lg-3 col-md-12">
+                      <img src="https://images-na.ssl-images-amazon.com/images/I/41jM4K-kR1L._AC_SY400_.jpg" class="img-fluid" alt="Responsive image">
+                    </div>
+                    <div class="col-xl-5 col-lg-6 col-md-11 ml-lg-0 ml-md-4 ml-sm-3 ml-4">
+                      <div class="row">
+                        <a href="#">HP Laptop 15-DY</a>
+                        <p>HP Laptop 15 DY 1751 MS 10th Generation Intel® Core™ i5-1035G1 Processors 8GB RAM 512GB SSD Windows 10 15.6 Inch HD 1366-by-768 Touchscreen, English Keyboard, Silver Color</p>
+                      </div>
+                    </div>  
+                    <div class="col-xl-3 col-lg-3 ml-xl-4 ml-lg-0 ml-md-0 ml-sm-0 ml-0">
+                      <div class="row ml-5 ml-lg-0 ml-md-0 mb-md-3 mb-sm-3 mb-3">
+                        <h3 class="text-primary col-xl-12 mt-4 ml-3">$500</h3>
+                        <a href="#" class="col-xl-12 col-lg-12">
+                          <button type="button" class="btn btn-outline-success ">Add to Cart</button>
+                        </a>  
+                      </div>
+                    </div> 
+                  </div>
+                </div>
+                <div class="col-xl-12 col-lg-12 col-md-6 col-sm-6 border rounded bg-light"><div class="row">
+                    <div class="col-xl-3 col-lg-3 col-md-12">
+                      <img src="https://images-na.ssl-images-amazon.com/images/I/41jM4K-kR1L._AC_SY400_.jpg" class="img-fluid" alt="Responsive image">
+                    </div>
+                    <div class="col-xl-5 col-lg-6 col-md-11 ml-lg-0 ml-md-4 ml-sm-3 ml-4">
+                      <div class="row">
+                        <a href="#">HP Laptop 15-DY</a>
+                        <p>HP Laptop 15 DY 1751 MS 10th Generation Intel® Core™ i5-1035G1 Processors 8GB RAM 512GB SSD Windows 10 15.6 Inch HD 1366-by-768 Touchscreen, English Keyboard, Silver Color</p>
+                      </div>
+                    </div>  
+                    <div class="col-xl-3 col-lg-3 ml-xl-4 ml-lg-0 ml-md-0 ml-sm-0 ml-0">
+                      <div class="row ml-5 ml-lg-0 ml-md-0 mb-md-3 mb-sm-3 mb-3">
+                        <h3 class="text-primary col-xl-12 mt-4 ml-3">$500</h3>
+                        <a href="#" class="col-xl-12 col-lg-12">
+                          <button type="button" class="btn btn-outline-success ">Add to Cart</button>
+                        </a>  
+                      </div>
+                    </div> 
+                  </div>
+                </div>
+                <div class="col-xl-12 col-lg-12 col-md-6 col-sm-6 border rounded bg-light"><div class="row">
+                    <div class="col-xl-3 col-lg-3 col-md-12">
+                      <img src="https://images-na.ssl-images-amazon.com/images/I/41jM4K-kR1L._AC_SY400_.jpg" class="img-fluid" alt="Responsive image">
+                    </div>
+                    <div class="col-xl-5 col-lg-6 col-md-11 ml-lg-0 ml-md-4 ml-sm-3 ml-4">
+                      <div class="row">
+                        <a href="#">HP Laptop 15-DY</a>
+                        <p>HP Laptop 15 DY 1751 MS 10th Generation Intel® Core™ i5-1035G1 Processors 8GB RAM 512GB SSD Windows 10 15.6 Inch HD 1366-by-768 Touchscreen, English Keyboard, Silver Color</p>
+                      </div>
+                    </div>  
+                    <div class="col-xl-3 col-lg-3 ml-xl-4 ml-lg-0 ml-md-0 ml-sm-0 ml-0">
+                      <div class="row ml-5 ml-lg-0 ml-md-0 mb-md-3 mb-sm-3 mb-3">
+                        <h3 class="text-primary col-xl-12 mt-4 ml-3">$500</h3>
+                        <a href="#" class="col-xl-12 col-lg-12">
+                          <button type="button" class="btn btn-outline-success ">Add to Cart</button>
+                        </a>  
+                      </div>
+                    </div> 
+                  </div>
+                </div>
+                <div class="col-xl-12 col-lg-12 col-md-6 col-sm-6 border rounded bg-light"><div class="row">
+                    <div class="col-xl-3 col-lg-3 col-md-12">
+                      <img src="https://images-na.ssl-images-amazon.com/images/I/41jM4K-kR1L._AC_SY400_.jpg" class="img-fluid" alt="Responsive image">
+                    </div>
+                    <div class="col-xl-5 col-lg-6 col-md-11 ml-lg-0 ml-md-4 ml-sm-3 ml-4">
+                      <div class="row">
+                        <a href="#">HP Laptop 15-DY</a>
+                        <p>HP Laptop 15 DY 1751 MS 10th Generation Intel® Core™ i5-1035G1 Processors 8GB RAM 512GB SSD Windows 10 15.6 Inch HD 1366-by-768 Touchscreen, English Keyboard, Silver Color</p>
+                      </div>
+                    </div>  
+                    <div class="col-xl-3 col-lg-3 ml-xl-4 ml-lg-0 ml-md-0 ml-sm-0 ml-0">
+                      <div class="row ml-5 ml-lg-0 ml-md-0 mb-md-3 mb-sm-3 mb-3">
+                        <h3 class="text-primary col-xl-12 mt-4 ml-3">$500</h3>
+                        <a href="#" class="col-xl-12 col-lg-12">
+                          <button type="button" class="btn btn-outline-success ">Add to Cart</button>
+                        </a>  
+                      </div>
+                    </div> 
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+      </main>
+
+      <footer class="row mt-5 d-xl-block d-lg-block d-sm-none d-none">
   <div class="col-12">
     <div class="row">
       <h5 class="col-xl-3 col-lg-3 col-md-3 col-sm-3 border border-dark m-0">CONTACT US</h5>
